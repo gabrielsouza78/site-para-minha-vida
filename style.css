@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background: #ffe6f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .nomes {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .foto-unica img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .tempo {
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  
+  .mensagem {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  #btnMusica {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff4081;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #btnSurpresa {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #tela-inicial {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    text-align: center;
+  }
+  
